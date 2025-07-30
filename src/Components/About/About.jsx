@@ -15,9 +15,9 @@ const About = () => {
             <div className="abt-content">
                 <div className="abt-text">
                     <p>
-                        Hi, I'm Arpita! I'm a passionate Front-End developer with a love for creating beautiful and functional websites.
+                        Hi, I'm Arpita! I'm an aspiring Front-End developer with a love for creating beautiful and functional websites.
                         I would love to specialize in front-end development, focusing on user experience and responsive design.
-                        When I'm not coding, you can find me exploring new technologies or working on personal projects.
+                        I love turning ideas into interactive web applications.
                     </p>
                     <p>
                         Feel free to connect with me!
