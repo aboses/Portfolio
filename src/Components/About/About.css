@@ -1,0 +1,105 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+
+.abt-title{
+    position: relative;
+}
+
+.abt-title h1{
+    margin-top: 10vh;
+    padding: 0px 40px;
+    font-size: 50px;
+    font-weight: 600;
+    text-shadow: rgb(254, 111, 111) 0px 0px 10px, black 0px 0px 20px;
+}
+
+.abt-section{
+    display: flex;
+    gap: 80px;
+}
+.abt-section .abt-image img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgb(243, 104, 104);
+}
+
+.abt-content{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.abt-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.abt-skills{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.abt-skills .skill-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    transition: 0.3s;
+}
+
+.abt-skills .skill-name p{
+   min-width: 150px;
+   font-size: 18px;
+   font-weight: 500;
+}
+
+.abt-skills .skill-name hr{
+    text-decoration: none;
+    border: none;
+    height: 8px;
+    width: 50px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgb(243, 104, 104), rgb(241, 238, 238));
+}
+
+.abt-skills .skill-name:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 768px) {
+    .about{
+        margin: 20px;
+    }
+    .abt-title h1{
+        font-size: 30px;
+    }
+    .abt-section{
+        flex-direction: column;
+        align-items: center;
+    }
+    .abt-section .abt-image img{
+        width: 200px;
+        height: 200px;
+    }
+    .abt-content{
+        align-items: center;
+    }
+    .abt-skills{
+        width: 90%;
+        text-align: center;
+    }
+    
+}
